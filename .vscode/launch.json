@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "BackendmarchepubliqueApplication",
+      "request": "launch",
+      "mainClass": "com.backendmarchepublique.backendmarchepublique.BackendmarchepubliqueApplication",
+      "projectName": "backendmarchepublique"
+    },
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",

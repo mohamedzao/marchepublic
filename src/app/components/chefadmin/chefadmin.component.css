@@ -1,0 +1,56 @@
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.chart-container canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Progress bar animations */
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+}
+
+/* Card hover effects */
+.hover-lift:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Loading animation */
+.loading-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.table-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
